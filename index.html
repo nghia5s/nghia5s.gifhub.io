@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trường Đại học Đại Nam</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    body {
+        height: 100vh;
+        background-color:white;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    a {/*chỉnh màu các thành phần navbar*/
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+    }
+    
+    a:hover {/*chỉnh màu các thành phần của navbar khi di chuột vào*/
+        color: blue;
+    }
+    /*HEADER*/
+    header {
+        position: relative;
+        padding: 0 2rem;
+    }
+    
+    .navbar{/* chỉnh độ dài chiều rộng,chiều cao trong navbar*/
+        width: 100%;
+        height: 60px;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .navbar .logo a {/*chỉnh cỡ chữ,độ đậm nhạt của logo*/
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    .navbar .links {/*chỉnh khoảng cách các thành phần trong navbar*/
+        display: flex;
+        gap: 2rem;
+    }
+    
+    .navbar .toggle_btn{
+        color: #fff;
+        font-size: 1.5rem;
+        cursor: pointer;
+        display: none;
+    }
+    
+    .action_btn {
+        background-color: blue;
+        color:#fff;
+        padding: 0.5rem 1rem ;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: scale 0.2 ease;
+    }
+    
+    .action_btn:hover {
+        scale: 1.05;
+        color:white
+    
+    }
+    
+    .action_btn:active {
+        scale: 0.95;
+    }
+    
+    header{background-color: orange;}
+    table a{
+        
+        color: black;
+    }
+    .chantrang {
+        position:absolute;
+        bottom:0;
+        padding:10px 0 10px 0;
+        color: white;
+        width:100%;
+        text-align: center;
+        height:60px;   
+        background:orange;
+     }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="gttruongvakhoa.html">Đại học Đại Nam</a></div>
+            <ul class="links">
+                <li><a href="https://tuyensinh.dainam.edu.vn/vi">Tuyển Sinh</a></li>
+                <li><a href="gttruongvakhoagtvetruong.html">Giới Thiệu</a></li>
+                <li><a href="noibat">Nổi Bật</a></li>
+                <li><a href="gtvekhoacntt.html"> Khoa CNTT</a></li>
+                <li><form action="/action_page.php">
+                    <input type="text" placeholder="Tìm kiếm.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </li>
+            </ul>
+            <a href="dangnhap.html" class="action_btn">Đăng Nhập</a>
+            
+        </div>
+
+    </header>
+    <main>
+     <div class="thanhphan">
+         <img src="https://dainam.edu.vn/admin/upload/banner/dainam.png" width="100%" height="130px">
+        <div class="bang">
+            <table >
+                <tr  bgcolor="blue"><td colspan="2"><font size="4" color="white" ><b>Bản tin Đại Nam  </b></font> </td></tr>
+                <tr><td>
+                    <a href=""><img src="https://www.dainam.edu.vn/admin/upload/news/9duet97jy73xelkm6su020230424142844_thump.jpg" width="85" height="70"></a>
+                </td>
+                <td><a href="https://www.dainam.edu.vn/vi/khoa-ngon-ngu-va-van-hoa-trung-quoc/tin-tuc/dai-hoc-dai-nam-dang-cai-cuoc-thi-hoc-thuat-danh-cho-sinh-vien-nganh-tieng-trung-tren-dia-ban-tp-ha-noi">
+                    <b>“Đại học Đại Nam đăng cai cuộc thi học thuật dành cho sinh viên ngành tiếng trung trên địa bàn thành phố Hà Nội”</b></a></td>
+            </tr>
+            <tr><td>
+                <a href=""><img src="https://www.dainam.edu.vn/admin/upload/news/i0wd5lhxjrgev4f692vj20230422100851_thump.jpg" width="85" height="70"></a>
+            </td>
+            <td><a href="https://www.dainam.edu.vn/vi/tin-tuc/ts-le-dac-son-chu-tich-hoi-dong-truong-dai-hoc-dai-nam-duoc-trao-tang-huy-hieu-40-nam-tuoi-dang">
+                <b>TS.Lê Đắc Sơn được trao tặng huy hiệu 40 năm tuổi Đảng</b></a></td>
+        </tr>
+        <tr><td>
+            <a href=""><img src="https://www.dainam.edu.vn/admin/upload/news/jbbdamoj6f5gqsb2t4ms20230421195207_thump.jpg" width="85" height="70"></a>
+        </td>
+        <td><a href="https://www.dainam.edu.vn/vi/khoa-tai-chinh-ngan-hang/tin-tuc/sinh-vien-dnu-rong-mo-co-hoi-ren-nghe-va-lam-viec-tai-mobifone">
+            <b>Sinh viên Dnu mở rộng cơ hội rèn nghề và làm việc tại Mobilefone</b></a></td>
+    </tr>
+    <tr><td>
+        <a href="">
+            <img src="https://www.dainam.edu.vn/admin/upload/news/luu6bgsru3eq6ogwfu9t20230421161658_thump.jpg" width="85" height="70"></a>
+    </td>
+    <td><a href="https://www.dainam.edu.vn/vi/khoa-quan-tri-kinh-doanh/tin-tuc/nganh-marketing-chuyen-nganh-digital-marketing-hoc-gi-tai-sao-nen-hoc-marketing-tai-dai-hoc-dai-nam">
+        <b>Ngành marketing-Tại sao nên học Marketing tại Đại học Đại nam?</b></a></td>
+    </tr>
+                
+            </table>
+        </div>
+    </main>
+    <footer>
+        <div class="chantrang">
+            <b>Trường Đại học Đại Nam</b><br>
+            <b>Địa chỉ: Số 1 Phố Xốm - Phú Lãm - Hà Đông - Hà Nội</b><br>
+            <b>Điện thoại: (024) 35577799</b>
+        </div>
+    </footer>
+</body>
+</html>

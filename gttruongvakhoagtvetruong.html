@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+    <style> *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    body {
+        height: 100vh;
+        background-color:white;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    a {/*chỉnh màu các thành phần navbar*/
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+    }
+    
+    a:hover {/*chỉnh màu các thành phần của navbar khi di chuột vào*/
+        color: blue;
+    }
+    /*HEADER*/
+    header {
+        position: relative;
+        padding: 0 2rem;
+    }
+    
+    .navbar{/* chỉnh độ dài chiều rộng,chiều cao trong navbar*/
+        width: 100%;
+        height: 60px;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .navbar .logo a {/*chỉnh cỡ chữ,độ đậm nhạt của logo*/
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    .navbar .links {/*chỉnh khoảng cách các thành phần trong navbar*/
+        display: flex;
+        gap: 2rem;
+    }
+    
+    .navbar .toggle_btn{
+        color: #fff;
+        font-size: 1.5rem;
+        cursor: pointer;
+        display: none;
+    }
+    
+    .action_btn {
+        background-color: blue;
+        color:#fff;
+        padding: 0.5rem 1rem ;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: scale 0.2 ease;
+    }
+    
+    .action_btn:hover {
+        scale: 1.05;
+        color:white
+    
+    }
+    
+    .action_btn:active {
+        scale: 0.95;
+    }
+    header{background-color: orange;}
+    p{text-align: left;
+    padding: 100px;}
+</style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="gttruongvakhoa.html">Đại học Đại Nam</a></div>
+            <ul class="links">
+                <li><a href="https://tuyensinh.dainam.edu.vn/vi">Tuyển Sinh</a></li>
+                <li><a href="https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%E1%BA%A1i_Nam">Giới Thiệu</a></li>
+                <li><a href="noibat">Nổi Bật</a></li>
+                <li><a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin"> Khoa CNTT</a></li>
+                <li><form action="/action_page.php">
+                    <input type="text" placeholder="Tìm kiếm.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </li>
+            </ul>
+            <a href="dangnhap.html" class="action_btn">Đăng Nhập</a>
+            
+        </div>
+
+    </header>
+    <main>
+        <p>Thành lập
+
+            Trường Đại học Đại Nam được thành lập ngày 14/11/2007 bởi TS.Lê Đắc Sơn và các cộng sự. Đến nay, Đại học Đại Nam đã trải qua 15 năm xây dựng và phát triển.Sứ mệnh – tầm nhìn
+
+            Sứ mạng của trường Đại học Đại Nam: “Đào tạo để người học ra trường có cuộc sống tốt và là công dân tốt”.Tầm nhìn đến năm 2030: “Đại học Đại Nam sẽ là lựa chọn hàng đầu của người học.” Nhà trường  lấy khối  đào tạo về bảo vệ - chăm sóc sức khỏe, gồm các ngành Y khoa, Dược học, Điều dưỡng là trục đào tạo cốt lõi; chú trọng đầu tư phát triển các ngành đào tạo có nhu cầu xã hội cao, như: Công nghệ thông tin, Khoa học máy tính, Quản trị kinh doanh, Kinh doanh quốc tế, Logistics và quản lý chuỗi cung ứng, Thương mại điện tử, Truyền thông đa phương tiện, các ngành ngôn ngữ (Anh, Trung, Hàn, Nhật)…. Từng bước quốc tế hoá các ngành đào tạo của trường.
+
+            Mục tiêu đào tạoTrường Đại học Đại Nam đã xác định đào tạo theo định hướng ứng dụng. Kết thúc khóa đào tạo, sinh viên nhận được bằng Cử nhân, Kỹ sư, Dược sỹ, Bác sỹ… với chuẩn đầu ra đảm bảo về Kiến thức chuyên môn - Kỹ năng nghề nghiệp - Ngoại ngữ - Công nghệ thông tin - Kỹ năng mềm - Thái độ tích cực.
+
+            Quy mô đội ngũ cán bộ, giảng viên
+            
+            Sau 1,5 thập kỷ, Đại học Đại Nam là nơi đầu quân của gần 800 cán bộ, giảng viên với gần 500 giảng viên cơ hữu, trong đó có 03 GS, 50 PGS, 125 Tiến sĩ, 329 thạc sĩ…100% giảng viên cơ hữu của DNU được đào tạo bài bản, chuyên nghiệp tại các cơ sở đào tạo uy tín trong nước và quốc tế. Đặc biệt, đội ngũ nhân sự của trường liên tục được học tập nâng cao trình độ chuyên môn và kỹ năng nghề nghiệp.Quy mô khối ngành không ngừng tăng trưởng
+
+            Trường Đại học Đại Nam đang tổ chức đào tạo ở 25 ngành đào tạo Đại học chính quy, 05 ngành đào tạo Thạc sĩ và 01 ngành đào tạo Tiến sĩ thuộc 04 khối ngành: Sức khỏe, Kinh tế, Kỹ thuật, Khoa học xã hội và nhân văn.Gần 30.000 sinh viên, học viên theo học ở các hệ đào tạo
+
+            Đại Nam đang có gần 30.000 sinh viên, học viên theo học ở tất cả các hệ đào tạo. Đến năm 2022, Nhà trường đã tuyển sinh được 16 khóa đại học chính quy; 12 khóa sinh viên đã tốt nghiệp ra trường với hơn 10.000 Dược sĩ, Cử nhân, Kỹ sư, Kiến trúc sư.
+            
+            Về đào tạo sau đại học, trường đã có 1.500 học viên cao học tốt nghiệp. Hiện DNU có gần 1.000 học viên đang theo học tại 05 ngành đào tạo Thạc sĩ và 01 ngành đào tạo Tiến sĩ.
+            
+            Một cơ sở duy nhất, rộng gần 10 ha tại quận Hà Đông
+            
+            Trụ sở của trường đặt tại Số 1 phố Xốm – Phú Lãm – Hà Đông – Hà Nội. Quần thể trường rộng gần 10 ha với đầy đủ các tòa nhà giảng đường, nhà hiệu bộ, trung tâm khởi nghiệp, trung tâm thực hành, ký túc xá sinh viên, khu nội trú quốc phòng, khu thao trường quốc phòng an ninh, căng – tin, hệ thống 5 sân bóng đá, bóng rổ, cầu lông, nhà thể chất đa năng…
+
+            Hiện Đại học Đại Nam đang tiếp tục xây dựng quần thể trường giai đoạn 2 với tổng vốn đầu tư lên đến 1.800 tỷ đồng. Sau khi hoàn thành xây dựng giai đoạn 2, Đại Nam đủ điều kiện đào tạo quy mô 20.000 sinh viên/năm.
+
+            Hệ thống giảng đường hiện đại, đa dạng diện tíchSinh viên DNU sở hữu hệ thống giảng đường hiện đại, đa dạng về diện tích, phù hợp với các nhu cầu học tập khác nhau. Phòng học được trang bị đầy đủ các trang thiết bị hiện đại, như: Máy chiếu, hệ thống âm thanh hiện đại, điều hòa, internet tốc độ cao, hệ thống phòng cháy chữa cháy… Bên cạnh đó, hệ thống phòng học đa phương tiện (trường quay, phòng hội thảo, phòng thực hành – thí nghiệm…) được trang bị phù hợp với đặc thù của từng ngành đào tạo.
+
+            Trung tâm thực hành ngành Dược tách biệt, ngay tại trường
+
+            Trung tâm Thực hành ngành Dược tách riêng với 4 xưởng thực hành thí nghiệm dược hóa hơn 50 phòng; 10 xưởng thực hành kỹ thuật với diện tích 1.000 m2 đạt chuẩn quy định của Bộ Y tế đối với cơ sở đào tạo Dược sĩ đại học.Phát triển toàn diện về thế chất với hệ thống sân bãi xịn sò
+
+Sinh viên DNU được phát triển toàn diện về thể chất và tinh thần với hệ thống nhà thể chất, sân bóng đá, bóng rổ, bóng chuyền, cầu lông… ngay trong khuân viên trường. Hệ thống sân bãi khang trang, sạch, đẹp đảm bảo phục vụ sinh viên sinh hoạt, thư giãn sau những giờ tập luyện căng thẳng.Được “đi lính” ngay tại trường
+
+Bắt đầu từ năm 2019, DNU tự chủ giảng dạy Quốc phòng an ninh với hệ thống cơ sở vật chất được đánh giá là tốt nhất hiện nay, gồm: Mô hình vũ khí, khí tài và các vật tư quân sự đáp ứng đào tạo đồng thời 02 đại đội (300 sinh viên/đợt); Sa hình, bãi tập mô hình kỹ chiến thuật: 1000m2 được xây dựng hiện đại kiên cố; Khu nội trú Quốc phòng và An ninh khang trang ngay tại trường đảm bảo nơi ở cho 300 sinh viên/ đợt.Tha hồ “sống ảo” với những “tọa độ check – in” đẹp mê mẩn
+
+Tại Đại học Đại Nam, DNUer được thỏa thích “check -in” với 12 mùa hoa và những góc sống ảo có một không hai.Ký túc xá tộng đáp ứng 1.400 chỗ ăn ở cho sinh viên
+
+Là sinh viên Đại học Đại Nam bạn sẽ không phải lo lắng về việc tìm kiếm phòng trọ; chi trả tiền nhà trọ, tiền điện nước đắt đỏ hàng tháng; chịu cảnh nóng bức, ngột ngạt; vấn nạn trộm cắp… vì đã có ký túc xá sinh viên ngay tại trường. Với tổng diện tích 5.000 m2 và 144 phòng vệ sinh khép kín, đầy đủ tiện nghi, ký túc xá ĐH Đại Nam đáp ứng 1.400 chỗ ăn ở cho sinh viên.</p>
+    </main>
+</body>
+</html>

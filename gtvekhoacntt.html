@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+</head>
+<style> *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body {
+    height: 100vh;
+    background-color:white;
+    background-size: cover;
+    background-position: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {/*chỉnh màu các thành phần navbar*/
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+a:hover {/*chỉnh màu các thành phần của navbar khi di chuột vào*/
+    color: blue;
+}
+/*HEADER*/
+header {
+    position: relative;
+    padding: 0 2rem;
+}
+
+.navbar{/* chỉnh độ dài chiều rộng,chiều cao trong navbar*/
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {/*chỉnh cỡ chữ,độ đậm nhạt của logo*/
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .links {/*chỉnh khoảng cách các thành phần trong navbar*/
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar .toggle_btn{
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.action_btn {
+    background-color: blue;
+    color:#fff;
+    padding: 0.5rem 1rem ;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+}
+
+.action_btn:hover {
+    scale: 1.05;
+    color:white
+
+}
+
+.action_btn:active {
+    scale: 0.95;
+}
+header{background-color: orange;}
+p{padding: 100px;}
+</style>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="gttruongvakhoa.html">Đại học Đại Nam</a></div>
+            <ul class="links">
+                <li><a href="https://tuyensinh.dainam.edu.vn/vi">Tuyển Sinh</a></li>
+                <li><a href="https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%E1%BA%A1i_Nam">Giới Thiệu</a></li>
+                <li><a href="noibat">Nổi Bật</a></li>
+                <li><a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin"> Khoa CNTT</a></li>
+                <li><form action="/action_page.php">
+                    <input type="text" placeholder="Tìm kiếm.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </li>
+            </ul>
+            <a href="dangnhap.html" class="action_btn">Đăng Nhập</a>
+            
+        </div>
+
+    </header>
+    <main>
+        <p>Từ A-Z về ngành Công nghệ thông tin trường Đại học Đại Nam
+            Nhằm giúp thí sinh và phụ huynh hiểu biết kỹ hơn về ngành Công nghệ thông tin (CNTT), từ đó có cơ sở vững chắc để đưa ra quyết định, lựa chọn phù hợp nhất với bản thân, trường Đại học Đại Nam đã tổng hợp và giải đáp những thắc mắc phổ biến của thí sinh và phụ huynh.
+            
+            1. Làm thế nào để trở thành sinh viên ngành CNTT trường Đại học Đại Nam?
+            
+            Để trở thành sinh viên của ngành CNTT trường Đại học Đại Nam (FIT DNU), bạn có thể đăng ký xét tuyển theo hai hình thức xét tuyển dưới đây:
+            
+            
+            
+            Xét Học bạ: Xét điểm 3 môn theo tổ hợp xét tuyển lớp 12 từ 18 điểm trở lên, các tổ hợp xét tuyển:
+            
+            A00: Toán, Vật lý, Hóa học
+            
+            A01:Toán, Vật lý, Tiếng Anh
+            
+            A10: Toán, Vật lý, Giáo dục công dân
+            
+            D84: Toán, Giáo dục công dân, Tiếng Anh
+            
+            Xét Điểm thi tốt nghiệp THPT: Đăng ký nguyện vọng ngành Công nghệ Thông Tin - Mã ngành 7480201 của Đại học Đại Nam (DDN) thành nguyện vọng ưu tiên. Điểm trúng tuyển sẽ được công bố căn cứ ngưỡng đảm bảo chất lượng.
+            
+            
+            2. Khoa CNTT của Đại học Đại Nam có những chuyên ngành nào? 
+            
+            FIT-DNU không chia chuyên ngành cho sinh viên. Sinh viên của FIT-DNU được đào tạo theo chương trình chung là Cử nhân CNTT.
+            
+            Tuy nhiên, FIT-DNU có trên 12 hướng nghiên cứu, được phân ra thành 3 bộ môn chính: Hạ tầng số và Kết nối vạn vật, Công nghệ dữ liệu và tri thức, Ứng dụng thông minh và chuyển đổi số. Và từng cá nhân có thể lựa chọn các môn tự chọn, các nhóm nghiên cứu, thực hành theo định hướng khác nhau. Sinh viên cũng có thể lấy các chứng chỉ chuyên gia để đi sâu vào các hướng công nghệ khác nhau.
+            
+            
+            
+            3. Ngành CNTT của trường Đại học Đại Nam có lớp chất lượng cao không?
+            
+            Ở FIT – DNU, các sinh viên khá giỏi có rất nhiều cơ hội tham gia các nhóm nghiên cứu với các chuyên gia hàng đầu trong và ngoài nước, phát triển công nghệ, sản phẩm thực sự trong các dự án hợp tác với các doanh nghiệp hàng đầu… Nên FIT-DNU không đào tạo riêng lớp Chất lượng cao.
+            
+            Hiện FIT - DNU đang xây dựng các chương trình đào tạo liên thông hợp tác với nước ngoài, để những học sinh giỏi khá và có điều kiện tham gia.
+            
+            4. Thời gian học cụ thể của Chương trình đào tạo chính quy ngành CNTT là bao lâu?
+            
+            Thời gian đào tạo bậc đại học ngành CNTT tại DNU là 4 năm. Tại FIT-DNU, sinh viên sẽ được học các môn cơ bản, kỹ năng, ngoại ngữ. Bên cạnh đó là các môn học chuyên ngành thuộc các bộ môn Hạ tầng số và Kết nối vạn vật, Công nghệ dữ liệu và tri thức, Ứng dụng thông minh và chuyển đổi số doanh nghiệp. Bộ môn thực hành sẽ do Trung tâm Khởi nghiệp sáng tạo công nghệ phụ trách.
+            
+            Tổng cộng có gần 40 môn học và 12 môn tự chọn, chủ yếu là về công nghệ mới nhất. Danh sách này sẽ mở rộng hàng năm để đáp ứng mọi nhu cầu của sinh viên và doanh nghiệp.
+            
+            >>> ĐĂNG KÝ XÉT TUYỂN VÀO NGÀNH CNTT TẠI ĐÂY
+            
+            5. Chất lượng đào tạo tại khoa CNTT của trường có khác biệt gì so với các trường khác?
+            
+            Từ năm học 2021-2022, chương trình đào tạo CNTT của FIT-DNU thay đổi phù hợp với xu hướng chuyển đổi số đại học. Chương trình đào tạo được thiết kế tinh giản, cải tạo, tiếp tục hướng tới yêu cầu thực tế và phát triển nâng cao chất lượng để đón đầu các xu hướng hiện đại. Cụ thể:
+            
+            - Từ năm thứ nhất tới năm thứ tư, mỗi tuần, sinh viên được thực tập một ngày 8 tiếng theo quy trình với nội dung công việc thực tế giống như ở doanh nghiệp.
+            
+            - Sinh viên đã có cái nhìn tổng quan về ngành CNTT trong các lĩnh vực khác nhau, có sự say mê nghề nghiệp và có một số kỹ năng lập trình cơ bản để có thể đi làm trong các doanh nghiệp ngay từ năm thứ nhất.
+            
+            
+            
+            Qua hơn 1 thập kỷ xây dựng và phát triển, khoa CNTT Đại học Đại Nam quy tụ hàng nghìn sinh viên theo học.
+            
+            6. Sinh viên ngành CNTT có được tham gia nghiên cứu không?
+            
+            Sinh viên tại FIT-DNU sẽ được tham gia các chương trình nghiên cứu phát triển (R&D) sản phẩm với các doanh nghiệp, khởi nghiệp sáng tạo công nghệ của FIT-DNU và nghiên cứu khoa học với các giáo sư hàng đầu trong nước và trên thế giới.
+            
+            FIT-DNU đào tạo cho sinh viên về Kỹ năng, Tri thức Công nghệ và Thái độ là 3 yếu tố dẫn tới thành công suốt đời.
+            
+            7. Phương pháp giảng dạy của thầy cô khoa CNTT DNU có gì khác biệt so với các trường khác?
+            
+            Đa số các cơ sở đào tạo hiện nay dạy CNTT từ cơ bản tới kỹ năng, rồi mới tới hệ thống. FIT-DNU ngược lại. Sinh viên bắt đầu từ các hệ thống thực tế, rồi mới đi sâu vào các thành phần. Cách tiếp cận này gây cảm hứng cho sinh viên, tránh việc tiếp thu các khái niệm trừu tượng, nặng nề và không rõ ý nghĩa thực tế. FIT-DNU sẽ trang bị kỹ năng cho sinh viên trước khi dạy các môn cơ bản.
+            
+            
+            
+            FIT-DNU chú trọng tới việc đào tạo thực hành.
+            
+            8. Con gái có nên học ngành CNTT hay không?
+            
+            Lĩnh vực CNTT không phân biệt nam nữ. Có rất nhiều nhân vật quyền lực, nổi tiếng về CNTT trên thế giới là nữ như Sheryl Sandberg, CEO Facebook, Maryssa Mayer cựu CEO Yahoo,… Nhiều vị trí nghề nghiệp trong lĩnh vực CNTT phù hợp với phái nữ như thiết kế lập trình Web, kiểm thử phần mềm, quản trị cơ sở dữ liệu, đảm bảo chất lượng phần mềm, quản trị CNTT,...
+            
+            Thực tế tuyển sinh tại DNU những năm qua cho thấy số lượng sinh viên nữ học tại ngành CNTT chiếm tỉ lệ cao. Nhiều bạn viên nữ có kết quả học tập tốt, thậm chí là cao hơn các bạn nam.
+            
+            9. Sinh viên có thể đi làm thêm không? Công việc làm thêm tương ứng với từng năm học là gì?
+            
+            Hoàn toàn có thể được, thậm chí sau năm thứ nhất, em có thể làm việc hỗ trợ kỹ thuật, sử chữa bảo hành thiết bị, máy tính, cài đặt phần mềm. Sau năm thứ hai, em có thể tham gia các dự án lập trình của doanh nghiệp và của Khoa. Từ năm thứ ba sẽ dạy các kỹ năng thiết kế, đủ đáp ứng nhu cầu chuyên môn hiện nay của thị trường. Nếu bổ sung một số chứng chỉ sinh viên của FIT-DNU sẽ được các công ty ưa chuộng ngay từ năm thứ ba.
+            
+            
+            
+            Với chương trình đào tạo mới, sinh viên ngành CNTT DNU học xong năm thứ nhất đã có thể đi làm trong các doanh nghiệp.
+            
+            11. Cơ hội việc làm của ngành CNTT hiện nay như thế nào?
+            
+            Hiện nay, trên toàn thế giới đều có tình trạng thiếu nhân lực về CNTT. Nhu cầu trước mắt ở Việt Nam là cần thêm khoảng nửa triệu nhân lực, vượt xa khả năng đáp ứng của các trường đại học. Do đó, CNTT là ngành dễ tìm việc nhất, lương tương đối cao, ổn định và tăng rất nhanh sau một số năm kinh nghiệm.
+            
+            Với chương trình đào tạo mới, cơ hội sẽ tăng rất nhiều, do các công ty đối tác của FIT-DNU tuyển dụng từ sau năm thứ hai vào các dự án phát triển của họ. Sau khi tốt nghiệp, nếu đáp ứng đủ yêu cầu, cả đội phát triển sẽ được tuyển thẳng vào công ty, không qua thử việc.
+            
+            >>> ĐĂNG KÝ XÉT TUYỂN VÀO NGÀNH CNTT TẠI ĐÂY
+            
+            12. Học CNTT ở DNU xong có thể làm ở  những vị trí nào tại doanh nghiệp?  
+            
+            Sau khi tốt nghiệp, sinh viên CNTT có thể làm cho hầu hết các doanh nghiệp, cơ quan nhà nước, tổ chức phi chính phủ, trường học, viện nghiên cứu, du học và học tiếp các chương trình kỹ sư, thạc sĩ hoặc tiến sĩ.
+            
+            Đặc biệt sinh viên FIT-DNU nắm được xu hướng chuyển đổi số, ứng dụng CNTT trong doanh nghiệp để tư vấn cho lãnh đạo doanh nghiệp và cơ quan chính phủ về tái cấu trúc tổ chức.
+            
+            Trong các doanh nghiệp CNTT, sinh viên FIT-DNU có thể đảm nhiệm hầu như mọi vị trí phát triển sản phẩm và cung cấp dịch vụ. Sinh viên FIT-DNU có thể bắt đầu bằng vị trí lập trình, kiểm thử, quản trị hệ thống, bảo trì, bảo dưỡng sản phẩm hoặc chăm sóc khách hàng. Sau đó sẽ có ưu thế trong các cơ hội thăng tiến lên các vị trí kỹ sư thiết kế, lãnh đạo nhóm, trưởng dự án,…
+            
+            Tại tất cả các công ty, sinh viên FIT-DNU đều đủ khả năng làm vai trò kỹ thuật viên, hỗ trợ kỹ thuật, vận hành hệ thống, đồng thời có thể tư vấn cho lãnh đạo công ty trong các dự án đầu tư về hạ tầng CNTT hoặc ứng dụng phần mềm. Nếu có cơ hội, sinh viên FIT-DNU có thể giữ các trọng trách như trưởng phòng CNTT, hoặc CIO, lãnh đạo CNTT tại các doanh nghiệp lớn.
+            
+            
+            
+            13. Mức lương sau khi tốt nghiệp đại học ngành CNTT là bao nhiêu?
+            
+            Không có con số cụ thể, bởi vì có rất nhiều tham số: năng lực và tính cách của ứng viên, nhu cầu và lĩnh vực hoạt động của nhà tuyển dụng, triển vọng phát triển, độ bền vững và rủi ro của việc làm. Mức lương khởi điểm trung bình của ngành CNTT hiện nay là từ 8-12 tr/tháng, chưa tính tới thâm niên kinh nghiệm. Mức lương sẽ tăng rất nhanh tùy theo kinh nghiệm em có.
+            
+            FIT-DNU sẽ có các chương trình hợp tác với doanh nghiệp để em có thể tích lũy kinh nghiệm ngay từ sau năm thứ nhất, có thể giúp em tìm việc làm có mức lương cao hơn.
+            
+            Bên cạnh đó FIT-DNU cũng có các chương trình đào tạo đặc biệt, để làm việc cho các công ty nước ngoài để có lương khởi điểm tới 20 tr (nếu làm trong nước) hoặc 50 tr (nếu làm ở nước ngoài).
+            
+            >>> ĐĂNG KÝ XÉT TUYỂN VÀO NGÀNH CNTT TẠI ĐÂY
+            
+            14. Khoa và Nhà trường hỗ trợ sinh viên như thế nào trong quá trình học tập?
+            
+            Các thầy của FIT-DNU luôn theo sát việc học tập của sinh viên, có thể tổ chức phụ đạo, kèm cặp đặc biệt tới học sinh kém. Bên cạnh đó, cộng đồng học tập của khoa quy tụ những sinh viên ưu tú sẽ giúp kèm cặp những sinh viên yếu kém để học tập đạt hiệu quả tốt nhất.
+            
+            Đội ngũ giáo viên chủ nhiệm nhiệt tình, sâu sát với từng hoàn cảnh sinh viên trong suốt thời gian học tập tại trường. Đặc biệt, sinh viên CNTT ĐH Đại Nam còn có cơ hội nhận những suất học bổng giá trị như: Học bổng Khuyến tài trị giá 100% và 50% học phí,  học bổng khuyến khích học tập, học bổng lớp chất lượng cao, học bổng doanh nghiệp…</p>
+    </main>
+</body>
+</html>
